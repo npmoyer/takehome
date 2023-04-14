@@ -1,0 +1,17 @@
+{
+  "name": "takehome",
+  "version": "1.0.0",
+  "description": "Solution to Serif Health takehome problem",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "pipeline": "npm run build && node dist/index.js"
+  },
+  "author": "Nick Moyer",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
